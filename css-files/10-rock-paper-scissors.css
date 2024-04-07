@@ -40,11 +40,19 @@ body {
 .score {
   margin-top: 60px;
 }
-
 .reset-score {
+  margin-right: 4px;
+  margin-left: 0px;
+}
+.autoplay {
+  margin-left: 5px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.reset-score, .autoplay {
   border: none;
   padding: 8px 15px;
-  margin: 0px;
   font-size: 15px;
   cursor: pointer;
   background-color: white;
@@ -52,12 +60,11 @@ body {
   box-shadow: 2px 2px 1px rgb(134, 134, 134);
   transition: border-radius 0.1s;
 }
-.reset-score:hover {
+.reset-score:hover, .autoplay:hover {
   border-radius: 5px;
 }
-.reset-score:active {
-  margin-top: 2px;
-  margin-left: 2px;
+.reset-score:active, .autoplay:active {
+  background-color: rgb(233, 233, 233);
   box-shadow: none;
 }
 @media (max-width: 770px) {
