@@ -107,7 +107,7 @@ body {
     font-size: 20px;
   }
 
-  .reset-score {
+  .reset-score, .autoplay {
     padding: 11px 18px;
     font-size: 19px;
   }
@@ -149,8 +149,8 @@ body {
     font-size: 25px;
   }
 
-  .reset-score {
-    padding: 14px 21px;
+  .reset-score, .autoplay {
+    padding: 10px 17px;
     font-size: 24px;
   }
 }
@@ -168,5 +168,12 @@ body {
   .moves {
     margin: 0px;
     margin-left: 5px;
+  }
+}
+
+@media (max-width: 361px) {
+  .reset-score, .autoplay {
+    padding: 10px 17px;
+    font-size: 20px;
   }
 }
